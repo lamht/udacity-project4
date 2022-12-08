@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: my-api
+spec:
+   containers:
+   - name: my-api-01
+     image: thanhlam00290/udacity-project4
+     ports:
+     - containerPort: 80
